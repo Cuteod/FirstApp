@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/screenBackground2"
+    tools:context=".FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <EditText
+        android:id="@+id/EtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/name_odinakachi_nnuforole"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/EtUsername"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EtUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="30dp"
+        android:inputType="textPersonName"
+        android:text="@string/username_cuteod"
+        app:layout_constraintTop_toBottomOf="@id/EtName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/EtEmail"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <EditText
+        android:id="@+id/EtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="@string/nnuforole_odinaka_gmail_com"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="30dp"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toBottomOf="@id/EtUsername"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <EditText
+        android:id="@+id/EtTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="30dp"
+        android:inputType="textPersonName"
+        android:text="@string/track_mobile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/EtEmail" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello">Hello blank fragment</string>
+    <string name="my_profile">My profile</string>
+    <string name="next">Next</string>
+    <string name="name_odinakachi_nnuforole">Name: Odinakachi Nnuforole</string>
+    <string name="username_cuteod">Username: Cuteod</string>
+    <string name="track_mobile">Track: Mobile</string>
+    <string name="nnuforole_odinaka_gmail_com">nnuforole.odinaka@gmail.com</string>
+</resources>
